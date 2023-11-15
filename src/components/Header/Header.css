@@ -8,6 +8,8 @@
     align-items: center;
     color: #ffffff;
     padding: 30px;
+    position: fixed;
+    box-shadow: 0 1px 2px #0F52BA;
 }
 .header h1{
     font-size: 40px;
@@ -20,7 +22,7 @@ spam{
     font-family: 'Montserrat', sans-serif;
 }
 .header__btn{
-    display: flex;
+   display: flex;
    background-color: #ffffff;
    width: 90px;
    height: 45px;
@@ -29,3 +31,8 @@ spam{
    text-align: center;
    padding: 12px;
 }
+
+/* button{
+    background: none;
+    border: none;
+} */

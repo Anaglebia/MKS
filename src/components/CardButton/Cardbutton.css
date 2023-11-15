@@ -1,0 +1,11 @@
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-status{
+    font-weight: 900;
+    color: black;
+    
+}

@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.css';
-import { HiMiniShoppingCart } from "react-icons/hi2";
-// import { FiShoppingBag } from "react-icons/fi";
+import Carbutton from '../CardButton/Cardbutton';
+// import { HiMiniShoppingCart } from "react-icons/hi2";
+
 
 function Header() {
   return (
@@ -9,10 +10,11 @@ function Header() {
 
     <h1>MKS<spam> Sistemas</spam></h1>
      <div className='header__btn'>
-        <button><HiMiniShoppingCart /></button>
+        <Carbutton/>
+        {/* <button><HiMiniShoppingCart /></button> */}
      </div>
     
-    {/* <FiShoppingBag /> */}
+
    </header>
   );
 }

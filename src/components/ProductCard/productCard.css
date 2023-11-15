@@ -1,0 +1,32 @@
+.product_card{
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 0;
+}
+.card_img{
+    width: 100%;
+}
+
+.card_info{
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+.card_price{
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+}
+.card_title{
+    font-size: 15px;
+    color: black;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.btn{
+    background-color: #0F52BA;
+}
